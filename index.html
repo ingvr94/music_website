@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Home - Y N G V R R</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="Dementia.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      </head>
+        <body>
+        <div class="container">
+   
+             <nav class="nav">    
+                <a href="/" class="name">YNGVRR</a>           
+                <ul class="nav__list_horizontal">
+                    <li class="nav__list_horizontal-music"><a href="/music">MUSIC</a></li>
+                    <li class="nav__list_horizontal-gallery"><a href="/gallery">GALLERY</a></li>
+                    <li class="nav__list_horizontal-contacts"><a href="#">CONTACTS  <span style="font-size:10px; position: absolute;padding:5px">▼</span></a>
+                    <div class="submenu_horizontal">
+                    <ul>
+                        <li><a href="https://instagram.com/yngvrrr?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">INSTAGRAM</a></li>
+                        <li><a href="https://www.facebook.com/igor.smirnov.71465" target="_blank">FACEBOOK</a></li>
+                        <li><a href="https://vk.com/id10389643" target="_blank">VK</a></li>
+                    </ul>    
+                    </div>
+                                        
+                    </li>
+                </ul> 
+                <i class="uil uil-bars"></i> 
+                <div class="menu__modal">
+                    <i class="uil uil-times"></i>
+                    <ul class="nav__list_vertical">
+                        <li class="nav__list_vertical-music"><a href="/music">MUSIC</a></li>
+                        <li class="nav__list_vertical-gallery"><a href="/gallery">GALLERY</a></li>
+                        <li class="nav__list_vertical-contacts"><a href="#">CONTACTS  <span style="font-size:10px; position: absolute;padding:5px">▼</span></a>
+                        <div class="submenu_vertical">
+                        <ul>
+                            <li><a href="https://instagram.com/yngvrrr?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">INSTAGRAM</a></li>
+                            <li><a href="https://www.facebook.com/igor.smirnov.71465" target="_blank">FACEBOOK</a></li>
+                            <li><a href="https://vk.com/id10389643" target="_blank">VK</a></li>
+                        </ul>    
+                        </div>
+                                            
+                        </li>
+                    </ul> 
+                </div>      
+            </nav>
+
+            <div class="contact-icons">
+                <ul class="contact-icons__list">
+                 <li><a href="https://instagram.com/yngvrrr?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>    
+                 <li><a href="https://www.facebook.com/igor.smirnov.71465" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>  
+                 <li><a href="https://vk.com/id10389643" target="_blank"><i class="fa-brands fa-vk"></i></a></li>    
+                    </ul> 
+            </div>
+        </div>
+    
+
+    <script>
+        gsap.from("nav",{y:-20, duration:2, opacity:0});
+        gsap.from(".contact-icons",{duration:2,opacity:0, delay:1});
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>

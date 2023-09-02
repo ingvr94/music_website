@@ -1,0 +1,231 @@
+<html>
+    <head>
+        <title>Music - Y N G V R R</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    </head>
+<body>
+    <div class="container">
+    <div class="image-background"></div>    
+    <nav class="nav">    
+        <a href="/" class="name">YNGVRR</a>           
+        <ul class="nav__list_horizontal">
+            <li class="nav__list_horizontal-music"><a href="/music">MUSIC</a></li>
+            <li class="nav__list_horizontal-gallery"><a href="/gallery">GALLERY</a></li>
+            <li class="nav__list_horizontal-contacts"><a href="#">CONTACTS  <span style="font-size:10px; position: absolute;padding:5px">▼</span></a>
+            <div class="submenu_horizontal">
+            <ul>
+                <li><a href="https://instagram.com/yngvrrr?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">INSTAGRAM</a></li>
+                <li><a href="https://www.facebook.com/igor.smirnov.71465" target="_blank">FACEBOOK</a></li>
+                <li><a href="https://vk.com/id10389643" target="_blank">VK</a></li>
+            </ul>    
+            </div>
+                                
+            </li>
+        </ul> 
+        <i class="uil uil-bars"></i> 
+        <div class="menu__modal">
+            <div class="close_menu"><i class="uil uil-times"></i></div>
+            <ul class="nav__list_vertical">
+                <li class="nav__list_vertical-music"><a href="/music">MUSIC</a></li>
+                <li class="nav__list_vertical-gallery"><a href="/gallery">GALLERY</a></li>
+                <li class="nav__list_vertical-contacts"><a href="#">CONTACTS  <span style="font-size:10px; position: absolute;padding:5px">▼</span></a>
+                <div class="submenu_vertical">
+                <ul>
+                    <li><a href="https://instagram.com/yngvrrr?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">INSTAGRAM</a></li>
+                    <li><a href="https://www.facebook.com/igor.smirnov.71465" target="_blank">FACEBOOK</a></li>
+                    <li><a href="https://vk.com/id10389643" target="_blank">VK</a></li>
+                </ul>    
+                </div>
+                                    
+                </li>
+            </ul> 
+        </div>      
+    </nav>
+
+    <div class="contact-icons">
+        <ul class="contact-icons__list">
+        <li><a href="https://instagram.com/yngvrrr?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="fa-brands fa-instagram contact-icons__icon"></i></a></li>    
+        <li><a href="https://www.facebook.com/igor.smirnov.71465" target="_blank"><i class="fa-brands fa-facebook contact-icons__icon"></i></a></li>  
+        <li><a href="https://vk.com/id10389643" target="_blank"><i class="fa-brands fa-vk contact-icons__icon"></i></a></li>    
+            </ul> 
+    </div>
+
+<div class="card">
+    <div class="card__container">
+        <figure class="cover"  >
+            <i class="fa-solid fa-play"></i>
+                <img class="card__img"  src="abovetheworld.jpg" id="1">
+                <figcaption>
+                <p class="rec-type">Album</p>
+                <p class="rec-name">Above the World (2021)</p> 
+            </figcaption>
+        </figure>
+        <figure class="cover" >
+            <i class="fa-solid fa-play"></i>
+            <img class="card__img"  src="Vacuum.jpg" id="2">
+            <figcaption>
+                <p class="rec-type">Single</p>
+                <p class="rec-name">Vacuum (2021)</p> 
+            </figcaption>
+        </figure>
+        <figure class="cover">
+            <i class="fa-solid fa-play"></i>
+            <figcaption>
+                <img class="card__img"  src="Dementia.jpg" id="3" >
+                <p class="rec-type">Single</p>
+                <p class="rec-name">Dementia (2019)</p> 
+            </figcaption>
+        </figure>
+    </div>
+    <swiper-container class="mySwiper" space-between="30" hash-navigation-watch-state="true" pagination="true"
+    pagination-clickable="true" navigation="true">
+        <swiper-slide>
+            <figure class="cover">
+                <i class="fa-solid fa-play"></i>
+                    <img class="card__img" src="abovetheworld.jpg" id="1">
+                    <figcaption>
+                    <p class="rec-type">Album</p>
+                    <p class="rec-name">Above the World (2021)</p> 
+                </figcaption>
+            </figure>
+        </swiper-slide>
+        <swiper-slide>
+            <figure class="cover">
+                <i class="fa-solid fa-play"></i>
+                <img class="card__img"  src="Vacuum.jpg" id="2">
+                <figcaption>
+                    <p class="rec-type">Single</p>
+                    <p class="rec-name">Vacuum (2021)</p> 
+                </figcaption>
+            </figure>
+        </swiper-slide>
+        <swiper-slide>
+            <figure class="cover">
+                <i class="fa-solid fa-play"></i>
+                <figcaption>
+                    <img class="card__img"  src="Dementia.jpg" id="3">
+                    <p class="rec-type">Single</p>
+                    <p class="rec-name">Dementia (2019)</p> 
+                </figcaption>
+            </figure>
+        </swiper-slide>
+      </swiper-container>
+
+</div>
+
+</div>
+<div id="popup" class="popup">
+    <div class="popup_body">
+        <div class="popup_content">
+            <img class="mini_cover" id="1" src="abovetheworld.jpg">
+            <a href="" class="streams-links" target="_blank">
+                    <p style="margin-left:10px; margin-bottom:8px;cursor:default;">Listen on:</p>
+                    <ul>
+                        <li><i class="fa-solid fa-music" title="Apple Music"></i></li>
+                        <li><i class="fa-brands fa-spotify" title="Spotify"></i></li>
+                        <li><i class="fa-brands fa-yandex" title="Yandex Music"></i></li>
+                        <li><i class="fa-brands fa-vk" title="VK Music"></i></li>
+                    </ul>
+            </a>
+            <div class="disc_name">Above the World</div>
+            <div class="artist_name">YNGVRR</div>
+            <div class="listen_btns">
+                <button class="play_btn" onclick="playStart()">▶︎ Listen here</button>
+                <button class="play_btn"><a class="play_btn_link" href="" target="_blank">@ Streaming</a></button>
+            </div>
+            <div class="tracklist">
+                <ol>
+                    <li class="tracklist__track">   
+                            <div class="wave">
+                                <div class="wave1"></div>
+                                <div class="wave1"></div>
+                                <div class="wave1"></div>
+                            </div>Microcosm 
+                    </li>
+                    <div class="progress-bar">
+                        <span class="current-time">0:00</span>
+                       
+                        <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+                      
+                        <span class="track-duration">0:00</span>
+                    </div>
+                    <li class="tracklist__track">Dementia</li>
+                    <li class="tracklist__track">Re-Ignite</li>
+                    <li class="tracklist__track">Aether</li>
+                    <li class="tracklist__track">Speed of Light</li>
+                    <li class="tracklist__track">Space Time</li>
+                    <li class="tracklist__track">Uncertainty</li>
+                    <li class="tracklist__track">Supernova</li>
+                    <li class="tracklist__track">Vacuum</li>
+                    <li class="tracklist__track">Illusion</li>
+                </ol>
+            </div>
+            <div class="close"><button onclick="closePlayer()"><i class="uil uil-times"></i></button></div>
+            <div class="right-side">
+                <div class="playback">
+                    <ul>
+                        <li><i class="fa-solid fa-backward" id="prev" onclick="prevTrack()"></i></li>
+                        <li><i class="fa-solid fa-play" id="masterPlay" onclick="playpauseTrack()"></i></li>
+                        <li><i class="fa-solid fa-forward" id="next" onclick="nextTrack()"></i></li>
+                    </ul>
+                </div>
+                <div class="volume-control">
+                    <i class="fa-solid fa-volume-off" onclick="mute()"></i>
+                    <input class="vol" type="range" min="0" max="100" value="50" onchange="setVolume()">
+                    <i class="fa-solid fa-volume-high" onclick="fullVolume()"></i>
+                </div> 
+                <iframe allowtransparency src="" frameborder="0" class="lyrics"></iframe>
+            </div>
+            <div class="mini-player">
+                <img class="mini-player__img"  src="abovetheworld.jpg">
+                <p class="trackname"></p>
+                <ol class="mini-player__remote"> 
+                <li><i class="fa-solid fa-play mini-player__play" id="miniPlay" onclick="playpauseTrack()"></i></li>
+                <li><i class="fa-solid fa-forward mini-player__next" id="next" onclick="nextTrack()"></i></li>
+                </ol>
+            </div>
+        </div>
+        <div class="mobile_player">
+            <i class="fa-solid fa-angle-down" onclick="hideMobilePlayer()"></i>
+            <img class="mobile_player__img" src="abovetheworld.jpg">
+            <div class="trackname" id="mobileTrackName">Microcosm</div>
+            <div class="mobile_player__artist_name">YNGVRR</div>
+            <div class="progress-bar" id="progressMobile">
+                <span class="current-time">0:00</span>
+               
+                <input type="range" min="1" max="100" value="0" class="seek_slider" id="mobileSlider" onchange="seekToMobile()">
+              
+                <span class="track-duration">0:00</span>
+            </div>
+            <div class="mobile_player__playback">
+                <ul>
+                    <li><i class="fa-solid fa-backward mobile_player__playback_back" onclick="prevTrack()"></i></li>
+                    <li><i class="fa-solid fa-play mobile_player__playback_play"  onclick="playpauseTrack()"></i></li>
+                    <li><i class="fa-solid fa-forward mobile_player__playback_next" onclick="nextTrack()"></i></li>
+                    <div class="mobile_player__volume-control">
+                        <i class="fa-solid fa-volume-off" onclick="mute()"></i>
+                        <input class="vol" id="mobileVolume" type="range" min="0" max="100" value="50" onchange="setVolume()">
+                        <i class="fa-solid fa-volume-high" onclick="fullVolume()"></i>
+                    </div> 
+                </ul>
+            </div>
+            <i class="fa-solid fa-comment-dots" onclick="showhideLyrics()"></i>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+gsap.from("nav",{y:-20, duration:2, opacity:0});
+gsap.from(".contact-icons",{duration:2,opacity:0, delay:1});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+<script src="player.js"></script>
+<script src="menu.js"></script>
+</div>
+</body>    
+</html>
