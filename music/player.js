@@ -152,17 +152,6 @@ function setVolume(){
     music.volume=currVolume[1].value / 100 
 }
 
-function mute(){
-    music.volume=0
-    currVolume[0].value=0
-    currVolume[1].value=0
-}
-
-function fullVolume(){
-    music.volume=1
-    currVolume[0].value=100
-    currVolume[1].value=100
-}
 
 function setUpdate() {
     let seekPosition = 0
